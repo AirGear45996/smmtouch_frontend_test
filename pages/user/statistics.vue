@@ -1,6 +1,7 @@
 <template>
     <div>
         <ul>
+            <li>Имя игрока: {{login}}</li>
             <li>Сыгранных вопросов: {{statistic.questionPlayed}}</li>
             <li>Верных ответов: {{statistic.correctAnswers}}</li>
             <li>Не верных ответов: {{statistic.incorrectAnswers}}</li>
@@ -13,6 +14,9 @@
 <script>
     export default {
         computed: {
+            login() {
+                return this.$store.getters['user/login']
+            },
             statistic() {
                 return this.$store.getters['user/statistic']
             }
