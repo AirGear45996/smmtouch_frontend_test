@@ -12,13 +12,6 @@
 
 <script>
     export default {
-        data: () => ({
-            categories: [
-                { id: 1, title: 1},
-                { id: 2, title: 2},
-            ],
-            points: [1,2,3,4]
-        }),
         computed: {
             statistic() {
                 return this.$store.getters['user/statistic']

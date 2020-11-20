@@ -19,7 +19,7 @@ export const actions = {
         commit('clearToken');
     },
     login({dispatch}, {login}) {
-        let token = 'testToken';
+        const token = 'testToken';
         dispatch('setToken', token);
         dispatch('user/init', {login},{root:true});
     }
