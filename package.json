@@ -10,8 +10,15 @@
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.12.2",
+    "cookie": "^0.4.1",
     "core-js": "^3.6.5",
+    "js-cookie": "^2.2.1",
+    "normalize.css": "^8.0.1",
     "nuxt": "^2.14.6"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "fibers": "^5.0.0",
+    "sass": "^1.29.0",
+    "sass-loader": "^10.1.0"
+  }
 }

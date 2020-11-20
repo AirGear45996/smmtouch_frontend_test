@@ -1,0 +1,40 @@
+html, body {
+  font-family: Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB, Microsoft YaHei, SimSun, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: transparent;
+}
+
+button {
+  border: none;
+  outline: none;
+  background: #0abad2;
+  padding: 10px 0;
+  color: white;
+  min-width: 250px;
+  user-select: none;
+
+  &:hover {
+    background: #23ddf7;
+    cursor: pointer;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+  }
+
+  // theme red
+  &.red {
+    background: #e52f3b;
+  }
+
+  &.red:hover {
+    background: #e5060f;
+  }
+}
+
+input {
+  border: 1px solid #b1b1b1;
+  outline: none;
+  padding: 10px 10px;
+
+  &::placeholder {
+    color: #696969;
+  }
+}

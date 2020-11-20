@@ -1,5 +1,15 @@
 # SMMTOUCH_MyGame
 
+## Demo mode 
+```bash
+
+# build for production and start build
+$ npm run build && npm run start
+
+# Then open your browser and run http://localhost:3000/
+
+```
+
 ## Build Setup
 
 ```bash
@@ -16,5 +26,3 @@ $ npm run start
 # generate static project
 $ npm run generate
 ```
-
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
